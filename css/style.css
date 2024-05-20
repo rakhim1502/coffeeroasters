@@ -2,6 +2,7 @@
   --text-color: #333;
   --accent-color-green: #0A775F;
   --outline-color:var(--accent-color-green);
+  --accent-color-brown: #C99B67;
 }
 
 
@@ -67,6 +68,7 @@ img {
 }
 .site-header-logo-link {
   display: flex;
+  flex-shrink: 0;
 }
 .site-header-logo-link:hover{
   opacity: 0.8;
@@ -101,10 +103,90 @@ img {
   line-height: normal;
   text-transform: uppercase;
   font-weight: bold;
+  white-space: nowrap;
 }
 .sitenav-link:hover{
   color: var(--accent-color-green);
 }
+.hero {
+}
+.hero-container {
+  display: flex;
+  padding-left: 0;
+  padding-right: 0;
+}
+.hero-info-wrapper {
+  width: 100%;
+  max-width: 730px;
+  margin: 0;
+  padding: 0;
+  padding-left: 150px;
+  padding-right: 116px;
+  padding-top: 116px;
+  padding-bottom: 100px;
+}
+.hero-heading {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: normal;
+  font-weight: bold;
+  color: black;
+}
+.hero-text {
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 34px;
+}
+.button {
+  display: inline-block;
+  white-space: nowrap;
+  border: 0;
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: normal;
+  padding: 16px 24px;
+}
+.button-green {
+  background-color: var(--accent-color-green);
+}
+.button-green:hover{
+  opacity: 0.8;
+}
+.button-green:active{
+  opacity: 0.6;
+}
+.button-brown {
+  background-color: var(--accent-color-brown);
+}
+.button-brown:hover{
+  opacity: 0.8;
+}
+.button-brown:active{
+  opacity: 0.6;
+}
+.hero-img {
+  width: 710px;
+  height: 596px;
+  object-fit: cover;
+}
+.hero-img-index{
+  height: 696px;
+}
+
+
+
+
+
+
+
 
 
 
